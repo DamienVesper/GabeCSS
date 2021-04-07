@@ -13,7 +13,7 @@
 
 /* Compensate for removing box shadow */
 .button.small {
-    padding-top: 22px !important;
+    padding-top: 13px !important;
 }
 
 /* Button hover color as lighter purple */
@@ -22,3 +22,6 @@
     background-color: #4020A1 !important;
     box-shadow: none !important;
 }
+
+/* Menu item icons */
+https://raw.githubusercontent.com/DamienVesper/KrunkerCSS/master/src/gabe.css

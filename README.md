@@ -1,2 +1,2 @@
-# KrunkerCSS
- A list of Custom CSS collections for Krunker.
+# GabeCSS
+A custom CSS mod for Trainer Gabe.
