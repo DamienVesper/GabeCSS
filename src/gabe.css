@@ -4,16 +4,6 @@
     src: url("https://fonts.gstatic.com/s/skranji/v8/OZpDg_dtriVFNerMUzykkw.woff2");
 }
 
-/* Modify all elements to be colored white by default. */
-* {
-    color: #fff;
-}
-
-/* No text decorations please */
-a {
-    text-decoration: none;
-}
-
 /* Default button color as dark purple */
 .button {
     display: inline-block;
