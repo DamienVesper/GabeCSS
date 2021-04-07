@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 }
 
-/* Modify the button utility class */
+/* Default button color as dark purple */
 .button {
     display: inline-block;
     position: relative;
@@ -26,6 +26,7 @@ a {
     border-radius: 2rem;
 }
 
+/* Button hover color as lighter purple */
 .button:hover {
     color: #fff;
     background-color: #4020A1;
