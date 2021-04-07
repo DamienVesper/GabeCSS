@@ -9,8 +9,8 @@
     display: inline-block;
     position: relative;
 
-    border-color: #2A0276;
-    background-color: #1A0752;
+    border-color: #2A0276 !important;
+    background-color: #1A0752 !important;
 
     box-sizing: border-box;
     border-radius: 2rem;
@@ -18,6 +18,6 @@
 
 /* Button hover color as lighter purple */
 .button:hover {
-    color: #fff;
-    background-color: #4020A1;
+    color: #fff !important;
+    background-color: #4020A1 !important;
 }
