@@ -4,20 +4,21 @@
     src: url("https://fonts.gstatic.com/s/skranji/v8/OZpDg_dtriVFNerMUzykkw.woff2");
 }
 
-/* Default button color as dark purple */
+/* Default button colors, remove box shadow */
 .button {
     border-color: #2A0276 !important;
     background-color: #1A0752 !important;
+    box-shadow: none !important;
+}
+
+/* Compensate for removing box shadow */
+.button.small {
+    padding-top: 22px !important;
 }
 
 /* Button hover color as lighter purple */
 .button:hover {
     color: #fff !important;
     background-color: #4020A1 !important;
-}
-
-/* Box shadows */
-.buttonG, .buttonR {
-    background-color: #1A0752 !important;
-    box-shadow: inset 0 -7px 0 0 #4020A1!important
+    box-shadow: none !important;
 }
