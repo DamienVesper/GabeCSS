@@ -9,6 +9,7 @@
     border-color: #2A0276 !important;
     background-color: #1A0752 !important;
     box-shadow: inset 0 -7px 0 0 #2A0276 !important;
+    border-radius: 15px;
 }
 
 /* Button hover color as lighter purple */
@@ -18,7 +19,12 @@
     box-shadow: inset 0 -7px 0 0 #613CCF !important;
 }
 
-/* Menu item icons */
-.iconProfile {
-    background-image: url()
+/* Color menu containers */
+#menuWindow, #newsHolder, #termsInfo {
+    background-color: #1A0752 !important;
+}
+
+/* Shadow for center menu container */
+#menuWindow {
+    box-shadow: 0 9px 0 0 #2A0276;
 }
