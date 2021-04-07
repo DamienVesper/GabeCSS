@@ -19,7 +19,9 @@ a {
     display: inline-block;
     position: relative;
 
-    color: #fff;    
+    color: #fff;
+    background-color: #1A0752;
+
     box-sizing: border-box;
     border-radius: 2rem;
 }
