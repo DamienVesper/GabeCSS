@@ -5,12 +5,11 @@
 }
 
 /* Set the default text color. */
-* {
-    color: #fff;
+a {
+    color: #2196f3 !important;
 }
 
-/* No mercy, set these to white regardless. */
-.grey {
+* {
     color: #fff !important;
 }
 
@@ -33,12 +32,32 @@
 .accountButton {
     background-color: #4020A1 !important;
 }
+
 .accountButton:hover {
     background-color: #613CCF !important;
 }
 
+/* Menu item colors */
+.menuItem, .headerBar, #streamContainer,  #youNewDiv {
+    background-color: #1A075280 !important;
+}
+
+/* Menu tab colors */
+.menuTabNew {
+    background-color: #4020A1 !important;
+    border-bottom: 5px solid #2A0276 !important;
+}
+
+.menuTabNew:hover {
+    border-bottom: 5px solid #613CCF !important;
+}
+
+.tabANew {
+    border-bottom: 5px solid #9b41fa !important;
+}
+
 /* Primary colors */
-#menuWindow, #newsHolder, #termsInfo, .serverHeader {
+#menuWindow, #newsHolder, #termsInfo, .serverHeader, .countIcon, #leaderDisplay, #newLeaderDisplay, #ammoDisplay, #timerDisplay, #teamScores, #voteToKick, #hudClassIcon, #healthValueHolder {
     background-color: #1A0752 !important;
 }
 
@@ -50,4 +69,8 @@
 /* Shadow for center menu container */
 #menuWindow {
     box-shadow: 0 9px 0 0 #2A0276;
+}
+
+#menuLevelBar {
+    background-color: #4020A1;
 }
