@@ -26,10 +26,10 @@
 
 /* Login button colors */
 .accountButton {
-    color: #4020A1 !important;
+    background-color: #4020A1 !important;
 }
 .accountButton:hover {
-    color: #613CCF !important;
+    background-color: #613CCF !important;
 }
 
 /* Primary colors */
