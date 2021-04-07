@@ -4,8 +4,13 @@
     src: url("https://fonts.gstatic.com/s/skranji/v8/OZpDg_dtriVFNerMUzykkw.woff2");
 }
 
-/* Set the default color. */
+/* Set the default text color. */
 * {
+    color: #fff;
+}
+
+/* No mercy, set these to white regardless. */
+.grey {
     color: #fff !important;
 }
 
