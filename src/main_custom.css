@@ -6,11 +6,12 @@
 
 /* Set the default text color. */
 a {
-    color: #2196f3 !important;
+    color: #9b41fa !important;
 }
 
 * {
     color: #fff !important;
+    transition: 0.3s;
 }
 
 /* Default button colors, remove box shadow */
@@ -43,12 +44,12 @@ a {
 }
 
 /* Menu tab colors */
-.menuTabNew {
+.menuTabNew, .settingTab {
     background-color: #4020A1 !important;
     border-bottom: 5px solid #2A0276 !important;
 }
 
-.menuTabNew:hover {
+.menuTabNew:hover, .settingTab:hover {
     border-bottom: 5px solid #613CCF !important;
 }
 
@@ -57,12 +58,12 @@ a {
 }
 
 /* Primary colors */
-#menuWindow, #newsHolder, #termsInfo, .serverHeader, .countIcon, #leaderDisplay, #newLeaderDisplay, #ammoDisplay, #timerDisplay, #teamScores, #voteToKick, #hudClassIcon, #healthValueHolder {
+#menuWindow, #newsHolder, #termsInfo, .serverHeader, .settingsHeader, .countIcon, #leaderDisplay, #newLeaderDisplay, #ammoDisplay, #timerDisplay, #teamScores, #voteToKick, #hudClassIcon, #healthValueHolder {
     background-color: #1A0752 !important;
 }
 
 /* Secondary colors */
-#serverSearch {
+input[type=text], select, .settingsBtn {
     background-color: #2A0276 !important;
 }
 
@@ -71,6 +72,16 @@ a {
     box-shadow: 0 9px 0 0 #2A0276;
 }
 
+/* Exp bars */
 #menuLevelBar {
     background-color: #4020A1;
+}
+
+/* Slider colors */
+.slider {
+    background-color: #2A0276 !important;
+}
+
+input:checked+.slider {
+    background-color: #9b41fa !important;
 }
