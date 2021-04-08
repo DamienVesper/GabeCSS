@@ -16,7 +16,6 @@ a {
 
 /* Default button colors, remove box shadow */
 .button {
-    border-color: #2A0276 !important;
     background-color: #1A0752 !important;
     box-shadow: inset 0 -7px 0 0 #2A0276 !important;
     border-radius: 15px;
@@ -63,8 +62,13 @@ a {
 }
 
 /* Secondary colors */
-input[type=text], select, .settingsBtn {
+input[type=text], input[type=number], input[type=range], select, .settingsBtn, .quickJoin {
     background-color: #2A0276 !important;
+}
+
+/* Button hover secondary colors */
+.settingsBtn:hover, .quickJoin:hover {
+    background-color: #4020A1 !important;
 }
 
 /* Shadow for center menu container */
@@ -78,10 +82,10 @@ input[type=text], select, .settingsBtn {
 }
 
 /* Slider colors */
-.slider {
+.slider, .slider2 {
     background-color: #2A0276 !important;
 }
 
-input:checked+.slider {
+input:checked + .slider, input:checked + .slider2 {
     background-color: #9b41fa !important;
 }
