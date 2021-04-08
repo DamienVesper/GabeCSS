@@ -4,14 +4,18 @@
     src: url("https://fonts.gstatic.com/s/skranji/v8/OZpDg_dtriVFNerMUzykkw.woff2");
 }
 
+/* Transitions */
+* {
+    transition: 0.3s;
+}
+
 /* Set the default text color. */
 a {
     color: #9b41fa !important;
 }
 
-* {
+#menuWindow * {
     color: #fff !important;
-    transition: 0.3s;
 }
 
 /* Default button colors, remove box shadow */
@@ -57,12 +61,12 @@ a {
 }
 
 /* Primary colors */
-#menuWindow, #newsHolder, #termsInfo, .serverHeader, .settingsHeader, .countIcon, #leaderDisplay, #newLeaderDisplay, #ammoDisplay, #timerDisplay, #teamScores, #voteToKick, #hudClassIcon, #healthValueHolder {
+#menuWindow, #newsHolder, #termsInfo, .serverHeader, .settingsHeader, .countIcon, .headerBar, #leaderDisplay, #newLeaderDisplay, #ammoDisplay, #timerDisplay, #teamScores, #voteToKick, #hudClassIcon, #healthValueHolder, #policePopC, #instructionsUpdate, #endTable {
     background-color: #1A0752 !important;
 }
 
 /* Secondary colors */
-input:not([type=checkbox]), select, .settingsBtn, .quickJoin, #hostMenuBtn {
+input:not([type=checkbox]):not(#chatInput), select, .settingsBtn, .quickJoin, #hostMenuBtn {
     background-color: #2A0276 !important;
 }
 
@@ -86,7 +90,7 @@ input[type=color] {
 }
 
 /* Exp bars */
-#menuLevelBar, .xpBarB {
+#menuLevelBar, .xpBarB, .progressBar, .progressBarInner {
     background-color: #4020A1;
 }
 
