@@ -62,12 +62,12 @@ a {
 }
 
 /* Secondary colors */
-input[type=text], input[type=number], input[type=range], select, .settingsBtn, .quickJoin {
+input[type=text], input[type=number], input[type=range], select, .settingsBtn, .quickJoin, #hostMenuBtn {
     background-color: #2A0276 !important;
 }
 
 /* Button hover secondary colors */
-.settingsBtn:hover, .quickJoin:hover {
+.settingsBtn:hover, .quickJoin:hover, #hostMenuBtn:hover {
     background-color: #4020A1 !important;
 }
 
