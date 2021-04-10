@@ -43,7 +43,7 @@ a {
 
 /* Menu item colors */
 .menuItem, .headerBar, #streamContainer,  #youNewDiv {
-    background-color: #1A075280 !important;
+    background-color: rgba(26, 7, 82, 0.5) !important;
 }
 
 /* Menu tab colors */
